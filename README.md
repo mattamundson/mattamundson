@@ -6,10 +6,10 @@ I build production systems where the orchestration *is* the product — multi-ag
 
 ### Featured public work
 
-| Repo | What it is |
-|---|---|
-| [**ralph-orchestrator**](https://github.com/mattamundson/ralph-orchestrator) | Reusable primitives for multi-agent LLM systems — circuit breakers, token tracking, session memory, health metrics, and a drop-in FastAPI router. Extracted from a working production deployment. 50/50 tests passing. |
-| [**gms-intelligence-plugin**](https://github.com/mattamundson/gms-intelligence-plugin) | A Claude Code plugin that encodes a metal-roofing manufacturer's domain knowledge as 7 eval-scored skills (pricing, SKUs, material estimation, colors, production, suppliers, inventory). Template for domain-expert plugins in any vertical. |
+| Repo | What it is | Live |
+|---|---|---|
+| [**ralph-orchestrator**](https://github.com/mattamundson/ralph-orchestrator) | Reusable primitives for multi-agent LLM systems — circuit breakers, token tracking, session memory, health metrics, and a drop-in FastAPI router. Extracted from a working production deployment. 50/50 tests, CI green on Python 3.10/3.11/3.12. | [pages](https://mattamundson.github.io/ralph-orchestrator/) |
+| [**gms-intelligence-plugin**](https://github.com/mattamundson/gms-intelligence-plugin) | A Claude Code plugin that encodes a metal-roofing manufacturer's domain knowledge as 7 eval-scored skills (pricing, SKUs, material estimation, colors, production, suppliers, inventory). 30/36 pricing-engine assertions pass (83%). Template for domain-expert plugins in any vertical. | [eval reports](https://mattamundson.github.io/gms-intelligence-plugin/) |
 
 ### What I care about
 
